@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VersusHub</title>
+    <link rel="stylesheet" href="bikes.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>VersusHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Mobiles</a></li>
+                    <li><a href="bikes.html">Bikes</a></li>
+                    <li><a href="laptop.html">Laptops</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="comparison-container">
+            <h2>VersusHub Bikes</h2>
+            <div class="product-comparison">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg" alt="Bike 1">
+                    <div class="specs">
+                        <select class="bike-selector" id="bike1" onchange="updateComparison()">
+                            <option value="">Select Bike 1</option>
+                            <option value="TVSApache">TVS Apache</option>
+                            <option value="YamahaR15V4">Yamaha R15 V4</option>
+                            <option value="HeroXtreme125R">Hero Xtreme 125R</option>
+                            <option value="Classic350">Royal Enfield Classic 350</option>
+                            <option value="CB350">Honda CB350</option>
+                            <option value="Duke250">KTM 250 Duke</option>
+                            <option value="Dominar400">Bajaj Dominar 400</option>
+                            <option value="ApacheRR310">TVS Apache RR 310</option>
+                            <option value="PulsarNS200">Bajaj Pulsar NS200</option>
+                            <option value="Xtreme160R">Hero Xtreme 160R</option>
+                            <option value="GixxerSF250">Suzuki Gixxer SF 250</option>
+                            <option value="Hornet20">Honda Hornet 2.0</option>
+                            <option value="Meteor350">Royal Enfield Meteor 350</option>
+                            <option value="200Duke">KTM Duke 200</option>
+                            <option value="ApacheRTR2004V">TVS Apache RTR 200 4V</option>
+                            <option value="Gixxer250">Suzuki Gixxer 250</option>
+                            <option value="Jawa42">Jawa 42</option>
+                            <option value="W175">Kawasaki W175</option>
+                            <option value="CB300F">Honda CB300F</option>
+                            <option value="Avenger220Cruise">Bajaj Avenger 220 Cruise</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Engine Capacity</div>
+                        <div class="spec-item blue">Power</div>
+                        <div class="spec-item blue">Mileage</div>
+                        <div class="spec-item blue">Top Speed</div>
+                        <div class="spec-item blue">Fuel Capacity</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg" alt="Bike 2">
+                    <div class="specs">
+                        <select class="bike-selector" id="bike1" onchange="updateComparison()">
+                            <option value="">Select Bike 2</option>
+                            <option value="TVSApache">TVS Apache</option>
+                            <option value="YamahaR15V4">Yamaha R15 V4</option>
+                            <option value="HeroXtreme125R">Hero Xtreme 125R</option>
+                            <option value="Classic350">Royal Enfield Classic 350</option>
+                            <option value="CB350">Honda CB350</option>
+                            <option value="Duke250">KTM 250 Duke</option>
+                            <option value="Dominar400">Bajaj Dominar 400</option>
+                            <option value="ApacheRR310">TVS Apache RR 310</option>
+                            <option value="PulsarNS200">Bajaj Pulsar NS200</option>
+                            <option value="Xtreme160R">Hero Xtreme 160R</option>
+                            <option value="GixxerSF250">Suzuki Gixxer SF 250</option>
+                            <option value="Hornet20">Honda Hornet 2.0</option>
+                            <option value="Meteor350">Royal Enfield Meteor 350</option>
+                            <option value="200Duke">KTM Duke 200</option>
+                            <option value="ApacheRTR2004V">TVS Apache RTR 200 4V</option>
+                            <option value="Gixxer250">Suzuki Gixxer 250</option>
+                            <option value="Jawa42">Jawa 42</option>
+                            <option value="W175">Kawasaki W175</option>
+                            <option value="CB300F">Honda CB300F</option>
+                            <option value="Avenger220Cruise">Bajaj Avenger 220 Cruise</option>
+
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Engine Capacity</div>
+                        <div class="spec-item blue">Power</div>
+                        <div class="spec-item blue">Mileage</div>
+                        <div class="spec-item blue">Top Speed</div>
+                        <div class="spec-item blue">Fuel Capacity</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg" alt="Bike 3">
+                    <div class="specs">
+                        <select class="bike-selector" id="bike1" onchange="updateComparison()">
+                            <option value="">Select Bike 3</option>
+                            <option value="TVSApache">TVS Apache</option>
+                            <option value="YamahaR15V4">Yamaha R15 V4</option>
+                            <option value="HeroXtreme125R">Hero Xtreme 125R</option>
+                            <option value="Classic350">Royal Enfield Classic 350</option>
+                            <option value="CB350">Honda CB350</option>
+                            <option value="Duke250">KTM 250 Duke</option>
+                            <option value="Dominar400">Bajaj Dominar 400</option>
+                            <option value="ApacheRR310">TVS Apache RR 310</option>
+                            <option value="PulsarNS200">Bajaj Pulsar NS200</option>
+                            <option value="Xtreme160R">Hero Xtreme 160R</option>
+                            <option value="GixxerSF250">Suzuki Gixxer SF 250</option>
+                            <option value="Hornet20">Honda Hornet 2.0</option>
+                            <option value="Meteor350">Royal Enfield Meteor 350</option>
+                            <option value="Duke200">KTM Duke 200</option>
+                            <option value="ApacheRTR2004V">TVS Apache RTR 200 4V</option>
+                            <option value="Gixxer250">Suzuki Gixxer 250</option>
+                            <option value="Jawa42">Jawa 42</option>
+                            <option value="W175">Kawasaki W175</option>
+                            <option value="CB300F">Honda CB300F</option>
+                            <option value="Avenger220Cruise">Bajaj Avenger 220 Cruise</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Engine Capacity</div>
+                        <div class="spec-item blue">Power</div>
+                        <div class="spec-item blue">Mileage</div>
+                        <div class="spec-item blue">Top Speed</div>
+                        <div class="spec-item blue">Fuel Capacity</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Made by Yash, Tanishq, Priyanshu, and Raunak</p>
+            <p>&copy; 2024 VersusHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="bikes.js"></script>
+</body>
+</html>

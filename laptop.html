@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VersusHub</title>
+    <link rel="stylesheet" href="laptop.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>VersusHub</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Mobiles</a></li>
+                    <li><a href="bikes.html">Bikes</a></li>
+                    <li><a href="laptop.html">Laptops</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="comparison-container">
+            <h2>VersusHub Laptops</h2>
+            <div class="product-comparison">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg" alt="Laptop 1">
+                    <div class="specs">
+                        <select class="laptop-selector" id="laptop1" onchange="updateComparison()">
+                            <option value="">Select Laptop 1</option>
+                            <option value="macbookair">Macbook Air M2</option>
+                            <option value="samsungnotebook">Galaxy Book 4 Pro</option>
+                            <option value="asusvivobook">Asus Vivobook 16</option>
+                            <option value="microsoftsurface">Microsoft Surface Elite</option>
+                            <option value="lenovoideapad5">Lenovo IdeaPad Duet 5</option>
+                            <option value="macbookairm3">Macbook Air M3</option>
+                            <option value="dellxps13">Dell XPS 13</option>
+                            <option value="aceraspire5">Acer Aspire 5</option>
+                            <option value="acerchromebookplus515">Acer Chromebook Plus 515</option>
+                            <option value="macbookprom3">Macbook Pro M3</option>
+                            <option value="dellxps17">Dell XPS 17</option>
+                            <option value="msikatana15">MSI Katana 15</option>
+                            <option value="asustufgamingf15">Asus TUF Gaming F15</option>
+                            <option value="macbookprom2max">Macbook Pro M2 Max</option>
+                            <option value="acerswift3oled">Acer Swift 3 OLED</option>
+                            <option value="lenovoyogabook9i">Lenovo Yoga Book 9i</option>
+                            <option value="asuszenbook17">Asus Zenbook 17</option>
+                            <option value="msigt77titan">MSI GT77 Titan</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Memory</div>
+                        <div class="spec-item blue">Battery Life</div>
+                        <div class="spec-item blue">Graphic Card</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg" alt="Laptop 2">
+                    <div class="specs">
+                        <select class="laptop-selector" id="laptop1" onchange="updateComparison()">
+                            <option value="">Select Laptop 2</option>
+                            <option value="macbookair">Macbook Air M2</option>
+                            <option value="samsungnotebook">Galaxy Book 4 Pro</option>
+                            <option value="asusvivobook">Asus Vivobook 16</option>
+                            <option value="microsoftsurface">Microsoft Surface Elite</option>
+                            <option value="lenovoideapad5">Lenovo IdeaPad Duet 5</option>
+                            <option value="macbookairm3">Macbook Air M3</option>
+                            <option value="dellxps13">Dell XPS 13</option>
+                            <option value="aceraspire5">Acer Aspire 5</option>
+                            <option value="acerchromebookplus515">Acer Chromebook Plus 515</option>
+                            <option value="macbookprom3">Macbook Pro M3</option>
+                            <option value="dellxps17">Dell XPS 17</option>
+                            <option value="msikatana15">MSI Katana 15</option>
+                            <option value="asustufgamingf15">Asus TUF Gaming F15</option>
+                            <option value="macbookprom2max">Macbook Pro M2 Max</option>
+                            <option value="acerswift3oled">Acer Swift 3 OLED</option>
+                            <option value="lenovoyogabook9i">Lenovo Yoga Book 9i</option>
+                            <option value="asuszenbook17">Asus Zenbook 17</option>
+                            <option value="msigt77titan">MSI GT77 Titan</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Memory</div>
+                        <div class="spec-item blue">Battery Life</div>
+                        <div class="spec-item blue">Graphic Card</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://img.freepik.com/free-vector/modern-question-mark-template-idea-message-vector_1017-47932.jpg" alt="Laptop 3">
+                    <div class="specs">
+                        <select class="laptop-selector" id="laptop2" onchange="updateComparison()">
+                            <option value="">Select Laptop 3</option>
+                            <option value="macbookair">Macbook Air M2</option>
+                            <option value="samsungnotebook">Galaxy Book 4 Pro</option>
+                            <option value="asusvivobook">Asus Vivobook 16</option>
+                            <option value="microsoftsurface">Microsoft Surface Elite</option>
+                            <option value="lenovoideapad5">Lenovo IdeaPad Duet 5</option>
+                            <option value="macbookairm3">Macbook Air M3</option>
+                            <option value="dellxps13">Dell XPS 13</option>
+                            <option value="aceraspire5">Acer Aspire 5</option>
+                            <option value="acerchromebookplus515">Acer Chromebook Plus 515</option>
+                            <option value="macbookprom3">Macbook Pro M3</option>
+                            <option value="dellxps17">Dell XPS 17</option>
+                            <option value="msikatana15">MSI Katana 15</option>
+                            <option value="asustufgamingf15">Asus TUF Gaming F15</option>
+                            <option value="macbookprom2max">Macbook Pro M2 Max</option>
+                            <option value="acerswift3oled">Acer Swift 3 OLED</option>
+                            <option value="lenovoyogabook9i">Lenovo Yoga Book 9i</option>
+                            <option value="asuszenbook17">Asus Zenbook 17</option>
+                            <option value="msigt77titan">MSI GT77 Titan</option>
+                        </select>
+                        <div class="spec-item blue">Name</div>
+                        <div class="spec-item blue">Display</div>
+                        <div class="spec-item blue">Processor</div>
+                        <div class="spec-item blue">Memory</div>
+                        <div class="spec-item blue">Battery Life</div>
+                        <div class="spec-item blue">Graphic Card</div>
+                        <div class="spec-item red">Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Made by Yash, Tanishq, Priyanshu, and Raunak</p>
+            <p>&copy; 2024 VersusHub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="laptop.js"></script>
+</body>
+</html>
