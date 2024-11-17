@@ -88,7 +88,7 @@ We welcome contributions to improve VersusHub. Follow these steps:
 ## 📬 **Contact Us**
 Have questions or suggestions? Feel free to reach out:
 - 📧 Email: Yash.ChaudharyUPES200584@gmail.com
-- 🌐 Website: [versushubs.surge.sh](https://versushubs.com)
+- 🌐 Website: [Versushub](https://versushubs.surge.sh)
 
 ---
 
